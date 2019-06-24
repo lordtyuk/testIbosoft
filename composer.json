@@ -1,0 +1,25 @@
+{
+    "name": "techbird/csvtest",
+    "license": "proprietary",
+    "type": "library",
+    "description": "Searching for repeating items in rows",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "fzaninotto/faker": "*"
+    },
+    "scripts": {
+    },
+    "autoload": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TechBird\\CsvTest\\Tests\\": "tests/"
+        }
+    },
+	"config": {
+        "bin-dir": "bin"
+    }
+}
